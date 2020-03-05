@@ -1,4 +1,4 @@
-# Cronbachs Alpha For VideoAnnotation
+# Cronbachs Alpha For Video Annotation
 Takes two outputs from video annotation software and tests their reliability against each other using Cronbach's Alpha Formula 
 for inter-reliability
 ## Inputs
