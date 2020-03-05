@@ -12,7 +12,7 @@ def round_to_nearest_frac(number,frac):
     return number / frac
 
 
-def import_data(file_input,interval, writeDefault = False):
+def import_data(file_input,interval):
     '''
     takes a file input and the interval for the timestaps to be seperated into
     '''
