@@ -1,0 +1,8 @@
+type,start,stop,duration,notes
+default,52.786,55.922,3.136,gazing away but registering what is said
+default,58.058,61.461,3.403,jibo lags between responses
+default,62.946,67.317,4.371,reason for off-task: jibo lags between their own responses
+default,85.068,88.154,3.086,Jibo lags
+default,207.423,213.746,6.323,gaze is off but thinking about question 
+default,239.205,250.016,10.811,jibo lags
+default,0.01,10.64,10.63,
