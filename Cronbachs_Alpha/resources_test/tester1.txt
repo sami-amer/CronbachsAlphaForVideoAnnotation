@@ -1,7 +1,7 @@
-Attention_Engagement		0.0	12.429	12.429	focused
+Attention_Engagement		0.0	12.429	12.429	idle
 Attention_Engagement		12.445	35.485	23.04	idle
 Attention_Engagement		35.535	50.1	14.565	idle
-Attention_Engagement		50.116	88.304	38.188	focused
+Attention_Engagement		50.116	88.304	38.188	idle
 Attention_Engagement		88.371	239.239	150.868	idle
-Attention_Engagement		239.289	250.066	10.777	focused
+Attention_Engagement		239.289	250.066	10.777	idle
 Attention_Engagement		250.083	304.47	54.387	idle

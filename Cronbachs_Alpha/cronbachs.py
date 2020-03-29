@@ -95,7 +95,7 @@ def cronbachs(list1, list2):
     print(N)
     print (covar)
     print(var)
-    return ((N * covar) / (var + (N - 1) * covar))
+    return ((N * covar) / (var*(0.1*N) + (N - 1) * covar))
 
 
 def save_default(files):
