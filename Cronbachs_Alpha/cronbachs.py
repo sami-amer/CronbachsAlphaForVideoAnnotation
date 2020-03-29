@@ -92,10 +92,8 @@ def cronbachs(list1, list2):
     N = len(list1)
     var = (np.var(list1) + np.var(list2)) / 2
     covar = abs(np.cov(list1, list2)[0][1])
-    print(N)
-    print (covar)
-    print(var)
-    return ((N * covar) / (var*(0.1*N) + (N - 1) * covar))
+    bias = 0.1 * N
+    return (N * covar) / (var * bias + (N - 1) * covar)
 
 
 def save_default(files):
@@ -127,9 +125,7 @@ def write_default(list):
 if __name__ == "__main__":
     # print(get_end_time('resources/P01_S02_wellness_Emily.txt'))
     # print(len(create_template_list(304.47)))
-    
+
     # b1, a1, e1 = import_data("resources/P01_S02_wellness_Emily.txt")
-    
-    print(
-        find_cronbachs(str(sys.argv[1]), str(sys.argv[2]))
-    )
+
+    print(find_cronbachs(str(sys.argv[1]), str(sys.argv[2])))
