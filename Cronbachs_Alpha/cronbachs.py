@@ -92,7 +92,7 @@ def cronbachs(list1, list2):
     N = len(list1)
     var = (np.var(list1) + np.var(list2)) / 2
     covar = abs(np.cov(list1, list2)[0][1]) #made into abs because covar is technically a vector
-    bias = 0.1 * N
+    bias = N - 1
     return (N * covar) / (var * bias + (N - 1) * covar)
 
 
